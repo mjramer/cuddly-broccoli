@@ -5,7 +5,8 @@ body {
   
   .navigation {
     overflow: hidden;
-    background-color: #333;
+    background-color: #6D6563;
+    min-width: 100%;
 }
   
   .navigation a {
@@ -19,7 +20,7 @@ body {
 }
   
   .navigation a:hover {
-    background-color: white;
+    background-color: #DCD9D8;
     color: black;
 }
   
@@ -31,7 +32,35 @@ body {
   .navigation .js {
     display: none;
 }
-  
+
+  h1 {
+    text-align: center;
+  }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .banner img {
+    flex-shrink: 0;
+    min-width: 100%;
+    height: 40px;
+  }
+
+  figure {
+    display: inline-block;
+    text-align: center;
+    margin-left: 125px;
+  }
+
+  .item {
+    margin: auto;
+    width: 50%;
+  }
+
   /*
   The following 2 css rule sets help the website
   be responsive. I don't fully understand it but
