@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Accessories</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>PC ACCESSORIES</h1>
+    </header>
+    <div class="navigation" id="navBar">
+        <a href="home_page.html">HOME</a>
+        <a href="site1.html">SITE1</a>
+        <a href="site2.html">SITE2</a>
+        <a href="site3.html">SITE3</a>
+        <a href="site4.html" class="active">PC ACCESSORIES</a>
+        <a href="site5.html">SITE5</a>
+        <a href="site6.html">SITE6</a>
+        <a href="javascript:void(0);" class="js" onclick()="minimize()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="usb.png" alt="img not loading">
+                    <figcaption>
+                        <b>Sandisk 64GB USB</b> <br />
+                        Price: $50 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="wirelessMouse1.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>GPCM Mouse Model O</b> <br />
+                        Price: $40 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="inkjetPrinter.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>Inkjet Printer</b> <br />
+                        Price: $300 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="laptop_charger.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>Lapower 65W Leveno Laptop Charger</b> <br />
+                        Price: $150 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="macbook_charger.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>Apple Macbook Charger USB-C 87W</b> <br />
+                        Price: $200 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+    </div>
+
+    <footer class="footer">
+        <h5>General Electronics © 2019</h5>
+        <ui class="footer-nav">
+            <li><a href="home_page.html">Home</a></li>
+            <li><a href="site1.html">Site1</a></li>
+            <li><a href="site2.html">Site2</a></li>
+            <li><a href="site3.html">Site3</a></li>
+            <li><a href="site4.html">PC Accessories</a></li>
+            <li><a href="site5.html">Site5</a></li>
+            <li><a href="site6.html">Site6</a></li>
+        </ui>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script type="text/javascript">
+        function minimize() {
+            var navBar = document.getElementById("topNav");
+            if (navBar.className == "navigation")
+                navBar.className += " responsive";
+            else
+                navBar.className = "navigation";
+        }
+    </script>
+</body>
+
+</html>
