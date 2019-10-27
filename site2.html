@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+	<head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cameras</title>
+    <link rel="stylesheet" type="text/css" href="style.css"  />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	</head>
+<body>
+    <header>
+        <h1>CAMERAS</h1>
+    </header>
+	<div class="navigation" id="navBar">
+		<a href="home_page.html">HOME</a>
+		<a href="site1.html">Site1</a>
+        <a href="site2.html" class="active">CAMERAS</a>
+        <a href="site3.html">MOBILE ACCESSORIES</a>
+        <a href="site4.html">PC ACCESSORIES</a>
+        <a href="site5.html">Site5</a>
+        <a href="site6.html">Site6</a>
+        <a href="javascript:void(0);" class="js" onclick()="minimize()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="xpro2.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>Fujifilm X-Pro 2</b> <br />
+                        Price: $1,499 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="xt2.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>Fujifilm X-T2</b> <br />
+                        Price: $799 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="xe3.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>Fujifilm X-E3</b> <br />
+                        Price: $599 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="a7.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>Sony α7S II</b> <br />
+                        Price: $2,400 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="a6300.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>Sony α6300</b> <br />
+                        Price: $900 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="a6000.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>Sony α6000</b> <br />
+                        Price: $550 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="m10.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>Leica M 10</b> <br />
+                        Price: $7,295 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="mp.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>Leica MP 0.72</b> <br />
+                        Price: $4,795 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="me.JPG" alt="img not loading">
+                    <figcaption>
+                        <b>Leica M-E</b> <br />
+                        Price: $3,995 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h5>General Electronics © 2019</h5>
+        <ui class="footer-nav">
+            <li><a href="home_page.html">Home</a></li>
+            <li><a href="site1.html">Site1</a></li>
+            <li><a href="site2.html">Cameras</a></li>
+            <li><a href="site3.html">Mobile Accessories</a></li>
+            <li><a href="site4.html">PC Accessories</a></li>
+            <li><a href="site5.html">Site5</a></li>
+            <li><a href="site6.html">Site6</a></li>
+        </ui>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script type="text/javascript">
+        function minimize() {
+            var navBar = document.getElementById("topNav");
+            if (navBar.className == "navigation")
+                navBar.className += " responsive";
+            else 
+                navBar.className = "navigation";
+        }
+    </script>
+</body>
+</html>
