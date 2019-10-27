@@ -128,13 +128,14 @@ figure img {
   text-decoration: none;
 }
 
-#contact-area {
+/*Contact page css formatting*/
+#contactForm {
   width: 600px;
   margin-top: 25px;
   text-align: center;
 }
 
-#contact-area input, #contact-area textarea {
+#contactForm input, #contactForm textarea {
   padding: 5px;
   width: 471px;
   font-family: Helvetica, sans-serif;
@@ -143,11 +144,11 @@ figure img {
   border: 2px solid #ccc;
 }
 
-#contact-area textarea {
+#contactForm textarea {
   height: 90px;
 }
 
-#contact-area input.submit-button {
+#contactForm input.submit-button {
   width: 100px;
   float: right;
 }
