@@ -35,7 +35,7 @@
       var newimg = document.createElement("img");
       $(newdiv).addClass("pic" + rand_index);
       $(newimg).attr("src", src_arr[rand_index]);
-      $(newimg).attr("width", $("#slideshow").width() * 4/5);
+      $(newimg).attr("width", $("#slideshow").width() * 3/5);
       $(newimg).attr("height", newimg.width * 2/3);
       $(newdiv).append(newimg);
       $("#slideshow").append(newdiv);

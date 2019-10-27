@@ -5,29 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <style type="text/css">
-      .slideshow{float: right; text-align: right; width:80%;}
-      .aside{text-align: left; width:20%; padding-left: 30px; padding-top: 20px;}
+      .slideshow{float: right; text-align: right; width:80%; padding-right: 60px;}
+      .aside{text-align: left; width:20%; padding-left: 50px; padding-top: 20px;}
       .aside h1 {text-align: left;}
+      .navigation .sticky{position: fixed;
+    width: 100%;
+    top: 0;}
     </style>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="home_page.js" charset="utf-8" language="javascript"></script>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   </head>
 <body>
     <header>
         <h1>Welcome to General Electronics (Change this name later)</h1>
     </header>
-
 	<div class="navigation" id="navBar">
 		<a href="home_page.html" class="active">HOME</a>
 		<a href="site1.html">BUY</a>
     <a href="site5.html">SELL</a>
     <a href="site6.html">CONTACT</a>
     <a href="javascript:void(0);" class="js" onclick()="minimize()">
-      <i class="fa fa-bars"></i>
+          <i class="fa fa-bars"></i>
       </a>
-    </div>
+  </div>
 
     <div class="slideshow"  id="slideshow"></div>
     <div class="aside">
