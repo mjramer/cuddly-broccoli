@@ -128,6 +128,73 @@ figure img {
   text-decoration: none;
 }
 
+#contact-area {
+  width: 600px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+#contact-area input, #contact-area textarea {
+  padding: 5px;
+  width: 471px;
+  font-family: Helvetica, sans-serif;
+  font-size: 1.4em;
+  margin: 0px 0px 10px 0px;
+  border: 2px solid #ccc;
+}
+
+#contact-area textarea {
+  height: 90px;
+}
+
+#contact-area input.submit-button {
+  width: 100px;
+  float: right;
+}
+
+label {
+  float: left;
+  text-align: right;
+  margin-right: 15px;
+  width: 100px;
+  font-size: 100%;
+  font-family: Helvetica, sans-serif;
+}
+.rate {
+    float: center;
+    padding-right: 130px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
 
 /*
   The following 2 css rule sets help the website
