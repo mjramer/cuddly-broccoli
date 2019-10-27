@@ -1,10 +1,15 @@
 <!DOCTYPE html>
 <html>
-	<head> 
+	<head>
 	<meta charset="utf-8">
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="style.css"  />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="jquery-3.4.1.js" charset="utf-8"></script>
+  <style type="text/css">
+    .slideshow{text-align: center;}
+
+  </style>
 	</head>
 <body>
     <header>
@@ -22,9 +27,46 @@
             <i class="fa fa-bars"></i>
         </a>
     </div>
-	
-    <script src="script.js"></script>
-	
+
+    <div class="slideshow"  id="slideshow"></div>
+    <script type="text/javascript">
+      $(document).ready(function(){ready();})
+      function ready(){
+          alert("this")
+          make_arr();
+          slideshow_loop();
+      }
+
+      function slideshow_loop(){
+        $("#slideshow").children("div").hide();
+        $("#slideshow").children("div").first().show();
+        setInterval(function() {
+          //alert("this")
+          $("#slideshow").children("div").first() // take first element
+          .fadeOut(0) // make it disappear
+          .next() // go to next div
+          .fadeIn(1000) // fade it in
+          .end() // go back to the previous div
+          .appendTo('#slideshow'); // add it to the end of the slideshow
+        }, 3000);
+      }
+
+      function make_arr(){
+        var src_arr = ["inkjetPrinter.JPG", "mouse.jpg", "macbook_charger.JPG",
+                       "laptop_charger.jpg"];
+        for (var i = 0; i < src_arr.length; i++){
+          var newdiv = document.createElement("div");
+          var newimg = document.createElement("img");
+          $(newdiv).addClass("pic" + i);
+          $(newimg).attr("src", src_arr[i]);
+          $(newimg).attr("width", $("#slideshow").width() * 2 / 3);
+          $(newimg).attr("height", newimg.width * 2/3);
+          $(newdiv).append(newimg);
+          $("#slideshow").append(newdiv);
+        }
+      }
+      </script>
+
     <footer class="footer">
         <h5>General Electronics © 2019</h5>
         <ui class="footer-nav">
@@ -43,7 +85,7 @@
             var navBar = document.getElementById("topNav");
             if (navBar.className == "navigation")
                 navBar.className += " responsive";
-            else 
+            else
                 navBar.className = "navigation";
         }
     </script>
