@@ -16,9 +16,9 @@
     </header>
     <div class="navigation" id="navBar">
         <a href="home_page.html">HOME</a>
-        <a href="site1.html">HEADPHONES</a>
-        <a href="site2.html">CAMERAS</a>
-        <a href="site3.html">MOBILE ACCESSORIES</a>
+        <a href="site1.html">SITE1</a>
+        <a href="site2.html">SITE2</a>
+        <a href="site3.html">SITE3</a>
         <a href="site4.html" class="active">PC ACCESSORIES</a>
         <a href="site5.html">SITE5</a>
         <a href="site6.html">SITE6</a>
@@ -29,24 +29,23 @@
 <div class="big-container">
     <div class="grid-container">
         <div class="grid-item" id="prod1">
-                <div class="hidden-text" id="hidden1" style="display: none;">
-                    <form id="form1">
-                        Quantity: <input type="text" name="numbers">
-                        <br /><br />
-                        <button id="b1">Express checkout</button><br/><br/>
-                        <button id="cancel1">Go Back</button>
-                    </form>
-                </div>
+            <div class="hidden-text" id="hidden1" style="display: none;">
+                <form id="form1">
+                    Quantity: <input type="text" name="numbers">
+                    <br /><br />
+                    <button id="b1">Express checkout</button><br/><br/>
+                    <button id="cancel1">Go Back</button>
+                </form>
+            </div>
 
-                <figure class="figure" id="fig1">
-                    <img src="usb.png" alt="img not loading">
-                    <figcaption>
-                        <b>Sandisk 64GB USB</b> <br />
-                        Price: $50 <br />
-                    </figcaption>
-                    <button id="purchase1">Fast Checkout</button>
-                </figure>
-                
+            <figure class="figure" id="fig1">
+                <img src="usb.png" alt="img not loading">
+                <figcaption>
+                    <b>Sandisk 64GB USB</b> <br />
+                    Price: $50 <br />
+                </figcaption>
+                <button id="purchase1">Fast Checkout</button>
+            </figure> 
         </div>
         <div class="grid-item">
                 <div class="hidden-text" id="hidden2" style="display: none;">
@@ -215,8 +214,8 @@
         <h5>General Electronics © 2019</h5>
         <ui class="footer-nav">
             <li><a href="home_page.html">Home</a></li>
-            <li><a href="site1.html">Headphones</a></li>
-            <li><a href="site2.html">Cameras</a></li>
+            <li><a href="site1.html">Site1</a></li>
+            <li><a href="site2.html">Site2</a></li>
             <li><a href="site3.html">Site3</a></li>
             <li><a href="site4.html">PC Accessories</a></li>
             <li><a href="site5.html">Site5</a></li>
@@ -224,137 +223,7 @@
         </ui>
     </footer>
 
-    <script src="script.js"></script>
-
-    <script type="text/javascript">
-        function minimize() {
-            var navBar = document.getElementById("topNav");
-            if (navBar.className == "navigation")
-                navBar.className += " responsive";
-            else
-                navBar.className = "navigation";
-        }
-    </script>
-    <script type="text/javascript">
-        $("#purchase1").click(function (e){
-            e.preventDefault();
-            $("#fig1").css("display", "none");
-            $("#hidden1").fadeIn();
-            $("#hidden1").css("display", "block");
-            
-        });
-        $("#b1").click(function(e){
-            e.preventDefault();
-            if($("#fig1").css("display") == "none"){
-                alert("bought");
-            }
-        });
-        
-        $("#purchase2").click(function (e){
-            e.preventDefault();
-            $("#fig2").css("display", "none");
-            $("#hidden2").fadeIn();
-            $("#hidden2").css("display", "block");
-            
-        });
-        $("#b2").click(function(e){
-            e.preventDefault();
-            if($("#fig2").css("display") == "none"){
-                alert("bought");
-            }
-        });
-        $("#purchase3").click(function (e){
-            e.preventDefault();
-            $("#fig3").css("display", "none");
-            $("#hidden3").fadeIn();
-            $("#hidden3").css("display", "block");
-            
-        });
-        $("#b3").click(function(e){
-            e.preventDefault();
-            if($("#fig3").css("display") == "none"){
-                alert("bought");
-            }
-        });
-        $("#purchase4").click(function (e){
-            e.preventDefault();
-            $("#fig4").css("display", "none");
-            $("#hidden4").fadeIn();
-            $("#hidden4").css("display", "block");
-            
-        });
-        $("#b4").click(function(e){
-            e.preventDefault();
-            if($("#fig4").css("display") == "none"){
-                alert("bought");
-            }
-        });
-        $("#purchase5").click(function (e){
-            e.preventDefault();
-            $("#fig5").css("display", "none");
-            $("#hidden5").fadeIn();
-            $("#hidden5").css("display", "block");
-            
-        });
-        $("#b5").click(function(e){
-            e.preventDefault();
-            if($("#fig5").css("display") == "none"){
-                alert("bought");
-            }
-        });
-        $("#purchase6").click(function (e){
-            e.preventDefault();
-            $("#fig6").css("display", "none");
-            $("#hidden6").fadeIn();
-            $("#hidden6").css("display", "block");
-            
-        });
-        $("#b6").click(function(e){
-            e.preventDefault();
-            if($("#fig6").css("display") == "none"){
-                alert("bought");
-            }
-        });
-        $("#purchase7").click(function (e){
-            e.preventDefault();
-            $("#fig7").css("display", "none");
-            $("#hidden7").fadeIn();
-            $("#hidden7").css("display", "block");
-            
-        });
-        $("#b7").click(function(e){
-            e.preventDefault();
-            if($("#fig7").css("display") == "none"){
-                alert("bought");
-            }
-        });
-        $("#purchase8").click(function (e){
-            e.preventDefault();
-            $("#fig8").css("display", "none");
-            $("#hidden8").fadeIn();
-            $("#hidden8").css("display", "block");
-            
-        });
-        $("#b8").click(function(e){
-            e.preventDefault();
-            if($("#fig8").css("display") == "none"){
-                alert("bought");
-            }
-        });
-        $("#purchase9").click(function (e){
-            e.preventDefault();
-            $("#fig9").css("display", "none");
-            $("#hidden9").fadeIn();
-            $("#hidden9").css("display", "block");  
-        });
-        $("#b9").click(function(e){
-            e.preventDefault();
-            if($("#fig9").css("display") == "none"){
-                alert("bought");
-            }
-        });
-    </script>
-    
+    <script src="script.js"></script>    
 </body>
 
 </html>
