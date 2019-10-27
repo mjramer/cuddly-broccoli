@@ -23,7 +23,7 @@
 
   function create_images_in_slideshow(){
     var src_arr = ["inkjetPrinter.JPG", "m10.JPG", "macbook_charger.JPG",
-                   "laptop_charger.jpg", "a7.JPG", "a6000.JPG", "airpods.jpg"
+                   "solo_pro.jpg", "a7.JPG", "a6000.JPG", "airpods.jpg"
                   ,"angle.jpg", "bang.jpg", "beatsx.jpg", "bose_700.jpg"
                   ,"dell_monitor.jpg", "power.JPG", "screen_protector.jpg"
                   ,"sd_card.JPG", "skwitch.JPG", "solo3.jpg", "xpro2.JPG"];
