@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>HEADPHONES</h1>
+    </header>
+    <div class="navigation" id="navBar">
+        <a href="home_page.html">HOME</a>
+        <a href="site1.html" class="active">HEADPHONES</a>
+        <a href="site2.html">CAMERAS</a>
+        <a href="site3.html">MOBILE ACCESSORIES</a>
+        <a href="site4.html">PC ACCESSORIES</a>
+        <a href="site5.html">Site5</a>
+        <a href="site6.html">Site6</a>
+        <a href="javascript:void(0);" class="js" onclick()="minimize()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="airpods.jpg" alt="img not loading">
+                    <figcaption>
+                        <b>AirPods with Charging Case</b> <br />
+                        Price: $159 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="apogee.jpg" alt="img not loading">
+                    <figcaption>
+                        <b>Apogee Sennheiser AMBEO Smart Headset</b> <br />
+                        Price: $200 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="bang.jpg" alt="img not loading">
+                    <figcaption>
+                        <b>Bang & Olufsen Beoplay H9i Noise-Cancelling Bluetooth Over-Ear Headphones</b> <br />
+                        Price: $500 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="bose_700.jpg" alt="img not loading">
+                    <figcaption>
+                        <b>Bose Noise Cancelling Headphones 700</b> <br />
+                        Price: $400 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="bose_qc35.jpg" alt="img not loading">
+                    <figcaption>
+                        <b>Bose QuietComfort 35 Wireless Headphones II</b> <br />
+                        Price: $350 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="bose_qc30.jpg" alt="img not loading">
+                    <figcaption>
+                        <b>Bose QuietComfort 30 Wireless Headphones</b> <br />
+                        Price: $300 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="solo_pro.jpg" alt="img not loading">
+                    <figcaption>
+                        <b>Beats Solo Pro Wireless Noise Cancelling Headphones</b> <br />
+                        Price: $300 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="solo3.jpg" alt="img not loading">
+                    <figcaption>
+                        <b>Beats Solo3 Wireless Headphones</b> <br />
+                        Price: $200 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+        <div class="grid-item">
+            <div class="grid-elem">
+                <figure>
+                    <img src="beatsx.jpg" alt="img not loading">
+                    <figcaption>
+                        <b>BeatsX Earphones</b> <br />
+                        Price: $100 <br />
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <h5>General Electronics © 2019</h5>
+        <ui class="footer-nav">
+            <li><a href="home_page.html">Home</a></li>
+            <li><a href="site1.html">Headphones</a></li>
+            <li><a href="site2.html">Cameras</a></li>
+            <li><a href="site3.html">Mobile Accessories</a></li>
+            <li><a href="site4.html">PC Accessories</a></li>
+            <li><a href="site5.html">Site5</a></li>
+            <li><a href="site6.html">Site6</a></li>
+        </ui>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <script type="text/javascript">
+        function minimize() {
+            var navBar = document.getElementById("topNav");
+            if (navBar.className == "navigation")
+                navBar.className += " responsive";
+            else
+                navBar.className = "navigation";
+        }
+    </script>
+</body>
+
+</html>
