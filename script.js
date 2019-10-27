@@ -16,7 +16,7 @@ $(document).ready(() => {
             navbar.classList.remove("sticky");
         }
     }
-    $("#purchase1").click(function (e){
+$("#purchase1").click(function (e){
     e.preventDefault();
     $("#fig1").css("display", "none");
     $("#hidden1").fadeIn();
