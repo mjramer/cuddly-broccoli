@@ -3,7 +3,8 @@
 	<head> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Cameras</title>
+    <title>Cameras</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <link rel="stylesheet" type="text/css" href="style.css"  />
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	</head>
@@ -27,100 +28,198 @@
     <div class="grid-container">
         <div class="grid-item">
             <div class="grid-elem">
-                <figure>
+                <div class="hidden-text" id="hidden1" style="display: none;">
+                    <form id="form1">
+                        Quantity: <input type="text" name="numbers">
+                        <br /><br />
+                        <button id="b1">Express checkout</button><br/><br/>
+                        <button id="cancel1">Go Back</button>
+                    </form>
+                </div>    
+                
+                <figure class="figure" id="fig1">
                     <img src="xpro2.JPG" alt="img not loading">
                     <figcaption>
                         <b>Fujifilm X-Pro 2</b> <br />
                         Price: $1,499 <br />
                     </figcaption>
+                    <button id="purchase1">Fast Checkout</button>
                 </figure>
             </div>
         </div>
+
         <div class="grid-item">
             <div class="grid-elem">
-                <figure>
+                <div class="hidden-text" id="hidden2" style="display: none;">
+                    <form id="form2">
+                        Quantity: <input type="text" name="numbers">
+                        <br /><br />
+                        <button id="b2">Express checkout</button><br/><br/>
+                        <button id="cancel2">Go Back</button>
+                    </form>
+                </div>
+                
+                <figure class="figure" id="fig2">
                     <img src="xt2.JPG" alt="img not loading">
                     <figcaption>
                         <b>Fujifilm X-T2</b> <br />
                         Price: $799 <br />
                     </figcaption>
+                    <button id="purchase2">Fast Checkout</button>
                 </figure>
             </div>
         </div>
+        
         <div class="grid-item">
             <div class="grid-elem">
-                <figure>
+                <div class="hidden-text" id="hidden3" style="display: none;">
+                    <form id="form3">
+                        Quantity: <input type="text" name="numbers">
+                        <br /><br />
+                        <button id="b3">Express checkout</button><br/><br/>
+                        <button id="cancel3">Go Back</button>
+                    </form>
+                </div>    
+                
+                <figure class="figure" id="fig3">
                     <img src="xe3.JPG" alt="img not loading">
                     <figcaption>
                         <b>Fujifilm X-E3</b> <br />
                         Price: $599 <br />
                     </figcaption>
+                    <button id="purchase3">Fast Checkout</button>
                 </figure>
             </div>
         </div>
+
         <div class="grid-item">
             <div class="grid-elem">
-                <figure>
+                <div class="hidden-text" id="hidden4" style="display: none;">
+                    <form id="form4">
+                        Quantity: <input type="text" name="numbers">
+                        <br /><br />
+                        <button id="b4">Express checkout</button><br/><br/>
+                        <button id="cancel4">Go Back</button>
+                    </form>
+                </div>
+                
+                <figure class="figure" id="fig4">
                     <img src="a7.JPG" alt="img not loading">
                     <figcaption>
                         <b>Sony α7S II</b> <br />
                         Price: $2,400 <br />
                     </figcaption>
+                    <button id="purchase4">Fast Checkout</button>
                 </figure>
             </div>
         </div>
+
         <div class="grid-item">
             <div class="grid-elem">
-                <figure>
+                <div class="hidden-text" id="hidden5" style="display: none;">
+                    <form id="form5">
+                        Quantity: <input type="text" name="numbers">
+                        <br /><br />
+                        <button id="b5">Express checkout</button><br/><br/>
+                        <button id="cancel5">Go Back</button>
+                    </form>
+                </div>
+                
+                <figure class="figure" id="fig5">
                     <img src="a6300.JPG" alt="img not loading">
                     <figcaption>
                         <b>Sony α6300</b> <br />
                         Price: $900 <br />
                     </figcaption>
+                    <button id="purchase5">Fast Checkout</button>
                 </figure>
             </div>
         </div>
+
         <div class="grid-item">
             <div class="grid-elem">
-                <figure>
+                <div class="hidden-text" id="hidden6" style="display: none;">
+                    <form id="form6">
+                        Quantity: <input type="text" name="numbers">
+                        <br /><br />
+                        <button id="b6">Express checkout</button><br/><br/>
+                        <button id="cancel6">Go Back</button>
+                    </form>
+                </div>
+                
+                <figure class="figure" id="fig6">
                     <img src="a6000.JPG" alt="img not loading">
                     <figcaption>
                         <b>Sony α6000</b> <br />
                         Price: $550 <br />
                     </figcaption>
+                    <button id="purchase6">Fast Checkout</button>
                 </figure>
             </div>
         </div>
+
         <div class="grid-item">
             <div class="grid-elem">
-                <figure>
+                <div class="hidden-text" id="hidden7" style="display: none;">
+                    <form id="form7">
+                        Quantity: <input type="text" name="numbers">
+                        <br /><br />
+                        <button id="b7">Express checkout</button><br/><br/>
+                        <button id="cancel7">Go Back</button>
+                    </form>
+                </div>
+                
+                <figure class="figure" id="fig7">
                     <img src="m10.JPG" alt="img not loading">
                     <figcaption>
                         <b>Leica M 10</b> <br />
                         Price: $7,295 <br />
                     </figcaption>
+                    <button id="purchase7">Fast Checkout</button>
                 </figure>
             </div>
         </div>
+
         <div class="grid-item">
             <div class="grid-elem">
-                <figure>
+                <div class="hidden-text" id="hidden8" style="display: none;">
+                    <form id="form8">
+                        Quantity: <input type="text" name="numbers">
+                        <br /><br />
+                        <button id="b8">Express checkout</button><br/><br/>
+                        <button id="cancel8">Go Back</button>
+                    </form>
+                </div>
+                
+                <figure class="figure" id="fig8">
                     <img src="mp.JPG" alt="img not loading">
                     <figcaption>
                         <b>Leica MP 0.72</b> <br />
                         Price: $4,795 <br />
                     </figcaption>
+                    <button id="purchase8">Fast Checkout</button>
                 </figure>
             </div>
         </div>
+
         <div class="grid-item">
             <div class="grid-elem">
-                <figure>
+                <div class="hidden-text" id="hidden9" style="display: none;">
+                    <form id="form9">
+                        Quantity: <input type="text" name="numbers">
+                        <br /><br />
+                        <button id="b9">Express checkout</button><br/><br/>
+                        <button id="cancel9">Go Back</button>
+                    </form>
+                </div>
+                
+                <figure class="figure" id="fig9">
                     <img src="me.JPG" alt="img not loading">
                     <figcaption>
                         <b>Leica M-E</b> <br />
                         Price: $3,995 <br />
                     </figcaption>
+                    <button id="purchase9">Fast Checkout</button>
                 </figure>
             </div>
         </div>
