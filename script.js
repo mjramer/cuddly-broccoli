@@ -26,7 +26,7 @@ $("#purchase1").click(function (e){
 $("#b1").click(function(e){
     e.preventDefault();
     if($("#fig1").css("display") == "none"){
-        alert("bought");
+        alert("Your item has been ordered!");
     }
 });
 
@@ -40,7 +40,7 @@ $("#purchase2").click(function (e){
 $("#b2").click(function(e){
     e.preventDefault();
     if($("#fig2").css("display") == "none"){
-        alert("bought");
+        alert("Your item has been ordered!");
     }
 });
 $("#purchase3").click(function (e){
@@ -53,7 +53,7 @@ $("#purchase3").click(function (e){
 $("#b3").click(function(e){
     e.preventDefault();
     if($("#fig3").css("display") == "none"){
-        alert("bought");
+        alert("Your item has been ordered!");
     }
 });
 $("#purchase4").click(function (e){
@@ -66,7 +66,7 @@ $("#purchase4").click(function (e){
 $("#b4").click(function(e){
     e.preventDefault();
     if($("#fig4").css("display") == "none"){
-        alert("bought");
+        alert("Your item has been ordered!");
     }
 });
 $("#purchase5").click(function (e){
@@ -79,7 +79,7 @@ $("#purchase5").click(function (e){
 $("#b5").click(function(e){
     e.preventDefault();
     if($("#fig5").css("display") == "none"){
-        alert("bought");
+        alert("Your item has been ordered!");
     }
 });
 $("#purchase6").click(function (e){
@@ -92,7 +92,7 @@ $("#purchase6").click(function (e){
 $("#b6").click(function(e){
     e.preventDefault();
     if($("#fig6").css("display") == "none"){
-        alert("bought");
+        alert("Your item has been ordered!");
     }
 });
 $("#purchase7").click(function (e){
@@ -105,7 +105,7 @@ $("#purchase7").click(function (e){
 $("#b7").click(function(e){
     e.preventDefault();
     if($("#fig7").css("display") == "none"){
-        alert("bought");
+        alert("Your item has been ordered!");
     }
 });
 $("#purchase8").click(function (e){
@@ -118,7 +118,7 @@ $("#purchase8").click(function (e){
 $("#b8").click(function(e){
     e.preventDefault();
     if($("#fig8").css("display") == "none"){
-        alert("bought");
+        alert("Your item has been ordered!");
     }
 });
 $("#purchase9").click(function (e){
@@ -130,7 +130,7 @@ $("#purchase9").click(function (e){
 $("#b9").click(function(e){
     e.preventDefault();
     if($("#fig9").css("display") == "none"){
-        alert("bought");
+        alert("Your item has been ordered!");
     }
 });
 
