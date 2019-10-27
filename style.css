@@ -55,7 +55,7 @@ h1 {
 figure {
 
   text-align: center;
-
+  display: block;
 }
 
 figure img {
@@ -161,4 +161,10 @@ figure img {
     display: block;
     text-align: left;
   }
+}
+
+.hidden-text {
+  text-align: center;
+  margin-top: 45%;
+  margin-bottom: 45%;
 }
