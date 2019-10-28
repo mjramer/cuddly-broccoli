@@ -156,7 +156,7 @@ figure img {
   transition: max-height 0.2s ease-out;
 }
 
-input[type=text], input[type=date] {
+input[type=text], input[type=date]{
   padding: 0;
   height: 30px;
   position: relative;
